@@ -5,9 +5,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
 class SimpleViewModel : ViewModel() {
-
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is gallery Fragment"
+    companion object {
+        const val MAGIC_HP: Int = 20
+        const val MAGIC_COMM_HP: Int = 20
+        const val YUGIOH_HP: Int = 8000
     }
-    val text: LiveData<String> = _text
+
+    private val _pHp = MutableLiveData<Int>().apply { value = YUGIOH_HP }
+
+    var playerHealth: LiveData<Int> = _pHp
 }

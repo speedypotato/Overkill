@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/simpleOptionsView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageButton
+        android:id="@+id/diceButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_dice"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/divideButton"
+        app:layout_constraintStart_toEndOf="@+id/subtractButton"
+        app:layout_constraintTop_toBottomOf="@+id/divideButton" />
+
+    <ImageButton
+        android:id="@+id/divideButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/ic_divide"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/coinButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_coin"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/addButton"
+        app:layout_constraintStart_toEndOf="@+id/divideButton"
+        app:layout_constraintTop_toTopOf="@+id/diceButton" />
+
+    <ImageButton
+        android:id="@+id/addButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_add"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divideButton"
+        app:layout_constraintTop_toTopOf="@+id/divideButton" />
+
+    <ImageButton
+        android:id="@+id/subtractButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_subtract"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toStartOf="@+id/divideButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/divideButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

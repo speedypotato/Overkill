@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class OverkillViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is slideshow Fragment"
+        value = "This feature isn't available yet.  Check back later!"
     }
     val text: LiveData<String> = _text
 }
