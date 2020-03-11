@@ -11,7 +11,6 @@
         android:id="@+id/text_health"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
         android:textColor="@color/colorAccent"
         android:textSize="60sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -26,6 +25,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_health">
 
-        <include layout="@layout/simple_options" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/simple_options" />
+
+            <include layout="@layout/simple_calc" />
+
+        </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

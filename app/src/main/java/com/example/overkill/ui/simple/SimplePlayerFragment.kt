@@ -35,11 +35,28 @@ class SimplePlayerFragment : Fragment() {
             setOnClickListener { subtractOnClick() }
         }
 
+        root.findViewById<ImageButton>(R.id.imageButton10).apply {
+            setOnClickListener { subtractReturnOnClick() }
+        }
+
+        initViews()
+
         return root
     }
 
+    private fun initViews() {
+        root.findViewById<ConstraintLayout>(R.id.simpleCalcView).visibility = View.GONE
+        root.findViewById<ConstraintLayout>(R.id.simpleOptionsView).visibility = View.VISIBLE
+    }
+
     private fun subtractOnClick() {
-        root.findViewById<ConstraintLayout>(R.id.simpleOptionsView).visibility = View.GONE  //hide buttons
+        root.findViewById<ConstraintLayout>(R.id.simpleOptionsView).visibility = View.GONE
+        root.findViewById<ConstraintLayout>(R.id.simpleCalcView).visibility = View.VISIBLE
+    }
+
+    private fun subtractReturnOnClick() {
+        root.findViewById<ConstraintLayout>(R.id.simpleCalcView).visibility = View.GONE
+        root.findViewById<ConstraintLayout>(R.id.simpleOptionsView).visibility = View.VISIBLE
     }
 
     private lateinit var root: View
