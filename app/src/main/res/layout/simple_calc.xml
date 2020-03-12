@@ -7,136 +7,147 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc7Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_7"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintEnd_toStartOf="@+id/calc8Button"
+        app:layout_constraintTop_toTopOf="@+id/calc8Button" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc8Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginTop="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_8"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_calc" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc9Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_9"
         android:scaleType="fitXY"
-        app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+        app:layout_constraintStart_toEndOf="@+id/calc8Button"
+        app:layout_constraintTop_toTopOf="@+id/calc8Button" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc4Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_4"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
-        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+        app:layout_constraintEnd_toStartOf="@+id/calc5Button"
+        app:layout_constraintTop_toTopOf="@+id/calc5Button" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/ic_coin"
+        android:id="@+id/calc5Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ic_calc_5"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/calc8Button" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc6Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_6"
         android:scaleType="fitXY"
-        app:layout_constraintStart_toEndOf="@+id/imageButton5"
-        app:layout_constraintTop_toTopOf="@+id/imageButton5" />
+        app:layout_constraintStart_toEndOf="@+id/calc5Button"
+        app:layout_constraintTop_toTopOf="@+id/calc5Button" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc1Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_1"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
-        app:layout_constraintTop_toTopOf="@+id/imageButton8" />
+        app:layout_constraintEnd_toStartOf="@+id/calc2Button"
+        app:layout_constraintTop_toTopOf="@+id/calc2Button" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/ic_coin"
+        android:id="@+id/calc2Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ic_calc_2"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+        app:layout_constraintTop_toBottomOf="@+id/calc5Button" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calc3Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="8dp"
-        android:background="@drawable/ic_coin"
+        android:background="@drawable/ic_calc_3"
         android:scaleType="fitXY"
-        app:layout_constraintStart_toEndOf="@+id/imageButton8"
-        app:layout_constraintTop_toTopOf="@+id/imageButton8" />
+        app:layout_constraintStart_toEndOf="@+id/calc2Button"
+        app:layout_constraintTop_toTopOf="@+id/calc2Button" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calcDelButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginEnd="8dp"
         android:background="@drawable/ic_back"
         android:scaleType="fitXY"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
-        app:layout_constraintTop_toTopOf="@+id/imageButton11" />
+        app:layout_constraintEnd_toStartOf="@+id/calc0Button"
+        app:layout_constraintTop_toTopOf="@+id/calc0Button" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:background="@drawable/ic_coin"
+        android:id="@+id/calc0Button"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ic_calc_0"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8" />
+        app:layout_constraintTop_toBottomOf="@+id/calc2Button" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:id="@+id/calcEqButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/ic_equals"
         android:scaleType="fitXY"
-        app:layout_constraintStart_toEndOf="@+id/imageButton11"
-        app:layout_constraintTop_toTopOf="@+id/imageButton11" />
+        app:layout_constraintStart_toEndOf="@+id/calc0Button"
+        app:layout_constraintTop_toTopOf="@+id/calc0Button" />
 
     <TextView
         android:id="@+id/text_calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_thin"
-        android:text="TextView"
+        android:text="@string/simple_calc_default"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_calc_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/text_calc"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
