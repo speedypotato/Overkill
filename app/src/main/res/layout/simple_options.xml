@@ -7,8 +7,8 @@
 
     <ImageButton
         android:id="@+id/diceButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/ic_dice"
         android:scaleType="centerInside"
@@ -18,18 +18,20 @@
 
     <ImageButton
         android:id="@+id/divideButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@drawable/ic_divide"
         android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
 
     <ImageButton
         android:id="@+id/coinButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@drawable/ic_coin"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/addButton"
@@ -38,8 +40,8 @@
 
     <ImageButton
         android:id="@+id/addButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@drawable/ic_add"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,8 +50,8 @@
 
     <ImageButton
         android:id="@+id/subtractButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:background="@drawable/ic_subtract"
         android:scaleType="centerInside"
         app:layout_constraintEnd_toStartOf="@+id/divideButton"

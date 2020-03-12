@@ -8,8 +8,9 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imageButton2"
@@ -17,19 +18,20 @@
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/text_calc" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
@@ -37,8 +39,9 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imageButton5"
@@ -46,8 +49,8 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,8 +59,9 @@
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintStart_toEndOf="@+id/imageButton5"
@@ -65,8 +69,9 @@
 
     <ImageButton
         android:id="@+id/imageButton7"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imageButton8"
@@ -74,8 +79,8 @@
 
     <ImageButton
         android:id="@+id/imageButton8"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
@@ -84,8 +89,9 @@
 
     <ImageButton
         android:id="@+id/imageButton9"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintStart_toEndOf="@+id/imageButton8"
@@ -93,17 +99,18 @@
 
     <ImageButton
         android:id="@+id/imageButton10"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:background="@drawable/ic_coin"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_back"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toStartOf="@+id/imageButton11"
         app:layout_constraintTop_toTopOf="@+id/imageButton11" />
 
     <ImageButton
         android:id="@+id/imageButton11"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:background="@drawable/ic_coin"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,18 +119,22 @@
 
     <ImageButton
         android:id="@+id/imageButton12"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:background="@drawable/ic_coin"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/ic_equals"
         android:scaleType="fitXY"
         app:layout_constraintStart_toEndOf="@+id/imageButton11"
         app:layout_constraintTop_toTopOf="@+id/imageButton11" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/text_calc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_thin"
         android:text="TextView"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
